@@ -17,6 +17,16 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+
     <dependencies>
         <!-- 实现对 SpringMVC 的自动化配置 -->
         <dependency>
